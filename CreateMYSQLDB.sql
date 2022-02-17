@@ -24,6 +24,8 @@ CREATE TABLE IF NOT EXISTS `fares` (
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
 
 
+
+
 INSERT IGNORE INTO `employees` (`username`, `password`) VALUES ('fred', 'fredpassword');
 INSERT IGNORE INTO `employees` (`username`, `password`) VALUES ('barney', 'barneypassword');
 INSERT IGNORE INTO `employees` (`username`, `password`) VALUES ('wilma', 'wilmapassword');
